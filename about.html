@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YogaEase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: skyblue; /* Changed background color to sky blue */
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .pose-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .pose-card {
+      background-color: #e8e8e8;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .pose-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .pose-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .pose-card h3 {
+      margin: 20px 0 10px 0;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .pose-card p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 20px;
+      margin-top: 50px;
+      display: inline-block;
+    }
+
+    a:hover {
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>YogaEase: Featured Asanas</h1>
+
+  <div class="pose-grid">
+    <div class="pose-card">
+      <img src="imgs/mountain.jpg" alt="Mountain Pose">
+      <h3>Mountain Pose</h3>
+      <p>Mountain Pose improves your posture and body awareness, strengthens your legs, and establishes good alignment</p>
+    </div>
+
+    <div class="pose-card">
+      <img src="imgs/tt.jpeg" alt="Tree Pose">
+      <h3>Tree Pose</h3>
+      <p>Tree Pose helps with focus, concentration, and stability," she explains. "It strengthens your core, legs, ankles, and feet, and also helps lengthen your spine and open up your hips. That can help us feel more grounded and centered.</p>
+    </div>
+
+    <div class="pose-card">
+      <img src="imgs/downwarddog.jpeg" alt="Downward Dog Pose">
+      <h3>Downward Dog</h3>
+      <p>Downward Dog, or Adho Mukha Svanasana, stretches the hamstrings, calves, and spine while strengthening the arms and shoulders. It improves flexibility, posture, and balance, and also boosts circulation to the brain, enhancing mental clarity and reducing stress. This pose helps engage the core and promotes a sense of grounding.</p>
+    </div>
+
+    <div class="pose-card">
+      <img src="imgs/w1.png" alt="Warrior I Pose">
+      <h3>Warrior I</h3>
+      <p>Warrior I strengthens and stretches your legs and buttocks (glutes), the front of your hips (hip flexors), and shins.</p>
+    </div>
+
+    <div class="pose-card">
+      <img src="imgs/w2.png" alt="Warrior II Pose">
+      <h3>Warrior II</h3>
+      <p>The posture strengthens your core, including your abs and back muscles, as well as the hip flexors, gluteal muscles, inner thigh, and ankle of the bent leg. In your back leg, the pose stretches the hip flexors, hamstring, and calf muscles.</p>
+    </div>
+
+    <div class="pose-card">
+      <img src="imgs/chair.jpeg" alt="Chair Pose">
+      <h3>Chair Pose</h3>
+      <p>Chair Pose, or Utkatasana, strengthens the thighs, calves, and core while improving balance and stability. It helps enhance posture and flexibility by engaging the lower body and stretching the spine. This pose also stimulates the heart and lungs, boosting circulation and energy levels. Practicing Chair Pose can aid in building endurance and promoting mental focus.</p>
+    </div>
+  </div>
+
+  <a href="index.html">Back to Home</a>
+
+</body>
+<footer> Done by Team Trailblazers</footer>
+</html>
